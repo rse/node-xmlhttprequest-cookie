@@ -3,7 +3,7 @@ Node XMLHttpRequest-Cookie
 ==========================
 
 <p/>
-<img src="https://nodei.co/npm/node-xmlhttprequest-cookie.png?downloads=true&stars=true" alt=""/>
+<img src="https://nodei.co/npm/xmlhttprequest-cookie.png?downloads=true&stars=true" alt=""/>
 
 <p/>
 <img src="https://david-dm.org/rse/node-xmlhttprequest-cookie.png" alt=""/>
