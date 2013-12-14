@@ -39,7 +39,7 @@ var cookieJar = new CookieJar();
 var cookie_recv = function (url, xhr) {
     xhr.setDisableHeaderCheck(true);
     var cookies = xhr.getResponseHeader("Set-Cookie");
-    if (typeof cookies === "object" && cookies.length > 0) {
+    if (typeof cookies === "object" && cookies !== null && cookies.length > 0) {
         for (var i = 0; i < cookies.length; i++) {
             var cookie = Cookie.build(cookies[i], url);
             cookieJar.insert(cookie);
