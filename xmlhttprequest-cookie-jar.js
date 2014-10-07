@@ -95,11 +95,7 @@ CookieJar.prototype = {
         var cookies = [];
         for (var i = 0; i < this.cookieList.length; i++) {
             var cookie = this.cookieList[i];
-            if (cookie.domain.length >= domain.length &&
-                cookie.domain.lastIndexOf(domain) === (cookie.domain.length - domain.length) &&
-                cookie.path.length >= path.length &&
-                cookie.path.indexOf(path) === 0 &&
-                !cookie.expired())
+            if (cookie.domain === domain && cookie.path === path && !cookie.expired())
                 cookies.push(cookie);
         }
         return cookies;
