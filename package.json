@@ -2,7 +2,7 @@
     "name":        "xmlhttprequest-cookie",
     "homepage":    "http://github.com/rse/node-xmlhttprequest-cookie",
     "description": "Cookie-aware XMLHttpRequest Wrapper",
-    "version":     "0.9.8",
+    "version":     "0.9.9",
     "license":     "MIT",
     "author": {
         "name":    "Dr. Ralf S. Engelschall",
